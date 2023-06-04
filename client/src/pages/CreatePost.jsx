@@ -6,7 +6,7 @@ import { getRandomPrompt } from '../utils';
 import { FormField, Loader } from '../components';
 
 const CreatePost = () => {
-  const navigate = useNavigate();
+ const navigate = useNavigate();
 
   const [form, setForm] = useState({
     name: '',
@@ -49,7 +49,6 @@ const CreatePost = () => {
       alert('Please provide proper prompt');
     }
   };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
