@@ -106,6 +106,9 @@ const Home = () => {
           </>
         )}
       </div>
+      <div className='flex justify-center mt-5'>
+          <h3>Made with <span className='text-red-500'>❤️</span> | Arya 2023</h3>
+      </div>
     </section>
   );
 };
